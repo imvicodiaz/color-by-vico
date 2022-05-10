@@ -9,12 +9,12 @@ body{
 
 .grillaIndex{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1;
     grid-template-areas: 
-    "header header"
-    "main aside"
-    "footer footer";
-    width: 100%;
+    "header "
+    "main "
+    "footer";
+    
 }
 
 header{
@@ -76,20 +76,25 @@ header{
     display: none;
 }
 
-
-
-main{
-    grid-area: main;
-    
-
+.index{
+    padding: 100px 0;
+    display: flex;
 }
 
-main div {
-    color: white;
-    display: flex;
-    flex-direction: column;
+.row{
     align-items: center;
 }
+
+.carousel slide{
+    width: 500px;
+}
+
+
+.d-block{
+    width: 300px;
+    height: 400px;
+}
+
 
 .tracking-in-expand {
     font-size: 100px;
@@ -109,7 +114,7 @@ main div {
     100% {
       opacity: 1;
     }
-  }
+}
   @keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;
@@ -121,21 +126,13 @@ main div {
     100% {
       opacity: 1;
     }
-  }
+}
   
 
 
 
 
-aside{
-    grid-area: aside;
-    margin: 15px;
-}
 
-aside img{
-    width: 300px;
-    padding-left: 20%;
-}
 
 footer{
     grid-area: footer;
@@ -164,87 +161,18 @@ footer div{
 
 /*************SERVICIOS/CURSOS***************/
 
-.servicios__body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "area2 area2 area2"
-    "area3 area4 area5"
-    "area6 area7 area8";
-    gap: 2rem;
-    margin: 1rem;
+.card-img-top{
+    height: 300px;
 }
 
-
-
-
-.area2{
-    grid-area: area2;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+.card{
+    margin: 50px 0;
+    width: 18rem;
 }
 
-.area3{
-    grid-area: area3;
-    display: grid;
-    align-content: center;
+.servicio__titulo{
+    display: flex;
     justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
-
-}
-
-.area4{
-    grid-area: area4;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
-}
-
-.area5{
-    grid-area: area5;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
-}
-
-.area6{
-    grid-area: area6;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
-}
-
-.area7{
-    grid-area: area7;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
-}
-
-.area8{
-    grid-area: area8;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 2rem;
-    border: 2px solid white ;
 }
 
 h1{
