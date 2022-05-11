@@ -175,25 +175,6 @@ footer div{
     justify-content: center;
 }
 
-h1{
-    color: white;
-}
-
-h2{
-    color: white;
-}
-
-h3{
-    color: white;
-}
-
-p{
-    color: white;
-}
-
-span{
-    color: white;
-}
 
 
 /***********BLOG**********/
@@ -227,62 +208,18 @@ section  h3{
 
 /*****************AGENDA TURNO******/
 
-.agendaTitulo{
-    text-align: center;
+.seccion2{
+    padding: 100px 0;
 }
-
 
 .formulario{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "ar1 ar8"
-    "ar3 ar8"
-    "ar4 ar8"
-    "ar5 ar8"
-    "ar6 ar8"
-    "ar7 ar8";
-}
-
-.name{
-    grid-area: ar1;
-    margin: 2rem;
-}
-
-.email{
-    grid-area: ar3;
-    margin: 2rem;
-}
-
-.servicio{
-    grid-area: ar4;
-    margin: 2rem;
-}
-
-.formularioServicio{
-    grid-area: ar5;
-    margin: 2rem;
-}
-
-
-.infoAdicional{
-    grid-area: ar6;
-    margin: 2rem;
-}
-
-.boton{
-    grid-area: ar7;
-    margin: 2rem;
-}
-
-
-
-.mapa{
-    grid-area: ar8;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    
+}
+
+.formulario2{
+    margin: 1rem 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -383,22 +320,30 @@ section  h3{
     /**********BLOG*********/    
     
    
-    .blog1{
-        display: flex;
-        flex-direction: column;
+    
+
+
+
+
+    /**************CURSOS***********/
+
+    .cardCursos{
+        width: 18rem;
     }
 
     /********Turnos*********/
 
-    .formulario{
-       display: flex;
-       flex-direction: column;
+
+    .seccion2{
+        padding: 30px 0;
     }
 
-    .mapa img{
-        width: 200px;
-        margin-bottom: 3rem;
+    .mapa{
+      width: 200px;
+      height: 200px;
     }
+   
+
    
     
     
