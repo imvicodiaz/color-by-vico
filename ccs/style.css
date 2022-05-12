@@ -7,15 +7,7 @@ body{
 
 }
 
-.grillaIndex{
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-areas: 
-    "header "
-    "main "
-    "footer";
-    
-}
+
 
 header{
     grid-area: header;
@@ -44,7 +36,9 @@ header{
 }
 
 
-  
+.menuHeader{
+    margin-top: 15px;
+}
 
 
 
@@ -76,9 +70,42 @@ header{
     display: none;
 }
 
-.index{
-    padding: 100px 0;
+.close{
+    display: none;
+}
+
+
+.blogCard{
+    max-width: 540px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+
+}
+
+.subtitulo{
+    text-align: center;
+    color: white;
+}
+
+
+.parrafo{
+    text-align: center;
+    color: white;
+}
+
+.carruselIndex{
+    width: 450px;
+    padding: 2rem 0;
+    
+
+}
+
+.carrusel{
     display: flex;
+    justify-content: center;
 }
 
 .row{
@@ -159,6 +186,8 @@ footer div{
 
 
 
+
+
 /*************SERVICIOS/CURSOS***************/
 
 .card-img-top{
@@ -180,30 +209,7 @@ footer div{
 /***********BLOG**********/
 
 
-section h1{
-    text-align: center;
-    font-size: 50px;
-}
-section  h3{
-    text-align: center;
-}
 
-.blog1{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-areas: 
-    "blog2 blog3";
-    align-items: center;
-    justify-items: stretch;
-    margin: 2rem;
-}
-
-.blog2{
-    display: grid;
-    justify-items: center;
-  
-    
-}
 
 
 /*****************AGENDA TURNO******/
@@ -222,6 +228,10 @@ section  h3{
     margin: 1rem 0;
 }
 
+.tituloAgenda{
+    font-size: 80px;
+}
+
 @media screen and (max-width: 600px) {
 
 
@@ -229,19 +239,22 @@ section  h3{
         display: flex;
         flex-direction: column;
     }
-
+     
+    .tituloIndex{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
     
    header{
        flex-direction: row;
    }
    header nav ul{
        margin: 0;
-       display: none;
+       
    }
 
-   header nav ul li{
-       display: none;
-    }
+   
 
     .menuHeader{
         display: flex;
@@ -255,7 +268,8 @@ section  h3{
         text-decoration: none;
         text-align: end;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
+        padding-right: 1rem;
     }
 
     .logo{
@@ -277,50 +291,70 @@ section  h3{
        margin-left: 1rem;
    }
 
+   .grillaIndex{
+       margin-right: 0;
+       margin-left: 12px;
+   }
+
+
+   #lateral{
+       display: block;
+       background-color: rgba(0, 0, 0, 0.9);
+       width: 80%;
+       height: 100vh;
+       position: fixed;
+       top: 0;
+       right: -100%;
+       z-index: 100;
+   }
+
+   #lateral:target{
+       right: 0;
+       transition: right 1s;
+   }
     
+   .menuHeader ul{
+      flex-direction: column;
+      justify-content: center;
+  }
 
-    aside{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .navLista{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
 
-    aside img{
-        width: 150px;
-        border-radius: 30%;
-        padding-left: 0;
-    }
+  .close{
+      display: flex;
+  }
+
+   
 
     
 
 
     /**************SERVICIOS/CURSOS**********/
 
-    .servicios__body{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin: 1rem;
-    }
+    
 
-    .area2 h1{
-        text-align: center;
-
-    }
-
-    .area2 h2{
-        text-align: center;
-    }
-
-    .area2 p{
-        text-align: center;
-    }
 
     /**********BLOG*********/    
     
    
+    .formulario{
+        align-items: center;
+    }
     
+    .titulo{
+        text-align: center;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
 
 
 
@@ -342,6 +376,8 @@ section  h3{
       width: 200px;
       height: 200px;
     }
+
+
    
 
    
