@@ -79,21 +79,26 @@ header{
     max-width: 540px;
 }
 
+
 .titulo{
     text-align: center;
     color: white;
+    
 
 }
 
 .subtitulo{
     text-align: center;
     color: white;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 
 .parrafo{
     text-align: center;
     color: white;
+    padding-left: 2rem;
 }
 
 .carruselIndex{
@@ -199,18 +204,151 @@ footer div{
     width: 18rem;
 }
 
+.card-title{
+    text-align: center;
+}
+
 .servicio__titulo{
     display: flex;
     justify-content: center;
 }
 
+.list-group li:hover {
+   background-color: darksalmon;
+}
 
+.card-text{
+    height: 140px;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body a:hover{
+     color: darksalmon;
+    font-weight: 500;
+    
+}
+
+.scale-in-bottom {
+	-webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes scale-in-bottom {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-bottom {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 1;
+    }
+  }
+  
+  
+
+
+  /***********Cursos**********/
+
+  .card-cursos{
+      height: 250px;
+  }
+
+  .cardCursos:hover{
+      background-color: darksalmon;
+      transition: 2s;
+  }
+
+  .reserva{
+      background-color: darksalmon;
+      border: darksalmon;
+      display: flex;
+      justify-content: center;
+  }
+
+  .reserva:hover{
+      background-color: white;
+      transition: 1s;
+  }
 
 /***********BLOG**********/
 
 
+.scale-up-ver-top {
+	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 
 
+ @-webkit-keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+  @keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+
+  
+
+.blog-card{
+    background-color: white;
+}
+
+.blog-card:hover{
+    background-color: darksalmon;
+    transition: 1s;
+}
+
+.card-text{
+    height: 300px;
+}
 
 /*****************AGENDA TURNO******/
 
@@ -231,6 +369,10 @@ footer div{
 .tituloAgenda{
     font-size: 80px;
 }
+
+
+  
+
 
 @media screen and (max-width: 600px) {
 
@@ -336,7 +478,7 @@ footer div{
     
 
 
-    /**************SERVICIOS/CURSOS**********/
+    /**************SERVICIOS************/
 
     
 
