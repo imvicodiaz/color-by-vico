@@ -232,6 +232,14 @@ footer div{
     
 }
 
+.card-servicios{
+    height: 700px;
+}
+
+.card-body{
+    height: 200px;
+}
+
 .scale-in-bottom {
 	-webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -279,7 +287,10 @@ footer div{
   .card-cursos{
       height: 250px;
   }
-
+    
+  .cardCursos{
+      height: 750px;
+  }
   .cardCursos:hover{
       background-color: darksalmon;
       transition: 2s;
@@ -339,6 +350,9 @@ footer div{
 
 .blog-card{
     background-color: white;
+    height: 400px;
+    text-align: center
+    ;
 }
 
 .blog-card:hover{
@@ -480,7 +494,17 @@ footer div{
 
     /**************SERVICIOS************/
 
-    
+    .servicio__titulo{
+        font-size: 80px;
+    }
+
+    .card-body{
+        height: 200px;
+    }
+
+    .card-enlaces{
+        height: 50px;
+    }
 
 
     /**********BLOG*********/    
@@ -498,6 +522,12 @@ footer div{
         text-align: center;
     }
 
+    .blog-card{
+        height: 300px;
+
+
+    }
+
 
 
 
@@ -505,7 +535,11 @@ footer div{
 
     .cardCursos{
         width: 18rem;
+        height: 750px;
     }
+
+    
+   
 
     /********Turnos*********/
 
@@ -518,6 +552,10 @@ footer div{
       width: 200px;
       height: 200px;
     }
+
+   .tituloAgenda{
+       font-size: 50px;
+   }
 
 
    
