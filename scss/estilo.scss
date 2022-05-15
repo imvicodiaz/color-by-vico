@@ -1,203 +1,21 @@
 
 
-
-body{
-    background-color:rgb(26, 25, 25);
-    
-    
-    
-
-}
-
-
-
-header{
-    grid-area: header;
-    background-color: black;
-    display: inline-flex;
-    flex-direction: row;
-    align-content: space-between;
-    align-items: center;
-    
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "logo nav";
-    align-content: space-evenly;
-    margin-left: 15px;
-   
-    
-    
-}
-
-.logo{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 2px solid white;
-    margin-left: 20px;
-    grid-area: logo;
-    
-}
-
-
-.menuHeader{
-    margin-top: 15px;
-}
-
-
-
-.menuHeader ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-area: nav;
-    
-}
-
-.menuHeader ul li{
-    list-style-type: none;
-    margin: 0 10px;
-   
-}
-
-.menuHeader ul li a{
-    text-decoration: none;
-    color: white;
-
-}
-
-.menuHeader ul li a:hover{
-    color: lightcoral;
-}
-
-.header_open{
-    display: none;
-}
-
-.close{
-    display: none;
-}
-
-
-.blogCard{
-    max-width: 540px;
-}
-
-
-
-.titulo{
-    text-align: center;
-    color: white;
-    
-
-}
-
-.subtitulo{
-    text-align: center;
-    color: white;
-    margin-left: 2rem;
-    padding-bottom: 1rem;
-}
-
-
-.parrafo{
-    text-align: center;
-    color: white;
-    padding-left: 2rem;
-}
-
-.carruselIndex{
-    width: 450px;
-    padding: 2rem 0;
-    
-
-}
-
-.carrusel{
-    display: flex;
-    justify-content: center;
-}
-
-.row{
-    align-items: center;
-}
-
-.carousel slide{
-    width: 500px;
-}
-
-
-.d-block{
-    width: 300px;
-    height: 400px;
-}
-
-
-.tracking-in-expand {
-    font-size: 100px;
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-
- @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-}
-  
+@import "parciales/_body";
+@import "parciales/_header";
+@import "parciales/_main";
+@import "parciales/_footer";
 
 
 
 
 
 
-footer{
-    grid-area: footer;
-    background-color: black;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-   
-    
-    
-
-}
-
-footer span{
-    color: white;
-    padding: 10px;
-    
-}
-
-footer div{
-    padding: 5px;
 
 
-}
+
+
+
+
 
 
 
@@ -578,7 +396,5 @@ footer div{
     
     
 }
-
-
 
 

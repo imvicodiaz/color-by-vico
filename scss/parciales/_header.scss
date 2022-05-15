@@ -1,0 +1,72 @@
+
+
+
+
+header{
+    grid-area: header;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "logo nav";
+    align-content: space-evenly;
+    margin-left: 15px;
+   
+    
+    
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 2px solid white;
+    margin-left: 20px;
+    grid-area: logo;
+    
+}
+
+
+.menuHeader{
+    margin-top: 15px;
+}
+
+
+
+.menuHeader ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: nav;
+    
+}
+
+.menuHeader ul li{
+    list-style-type: none;
+    margin: 0 10px;
+   
+}
+
+.menuHeader ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.menuHeader ul li a:hover{
+    color: lightcoral;
+}
+
+.header_open{
+    display: none;
+}
+
+.close{
+    display: none;
+}
