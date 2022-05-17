@@ -1,0 +1,23 @@
+.card-cursos{
+    height: 250px;
+}
+  
+.cardCursos{
+    height: 750px;
+}
+.cardCursos:hover{
+    background-color: darksalmon;
+    transition: 2s;
+}
+
+.reserva{
+    background-color: darksalmon;
+    border: darksalmon;
+    display: flex;
+    justify-content: center;
+}
+
+.reserva:hover{
+    background-color: white;
+    transition: 1s;
+}

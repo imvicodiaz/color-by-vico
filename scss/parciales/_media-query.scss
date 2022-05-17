@@ -1,0 +1,180 @@
+@media screen and (max-width: 600px) {
+
+
+    .grillaIndex{
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .tituloIndex{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
+    
+   header{
+       flex-direction: row;
+   }
+   header nav ul{
+       margin: 0;
+       
+   }
+
+   
+
+    .menuHeader{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header_open{
+        display: block;
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+
+    .logo{
+        margin-top: 10px;
+    }
+
+   main div h2{
+       text-align: center;
+      
+   }
+
+   main div h3{
+       text-align: center;
+       
+   }
+   
+   .indexTexto{
+       margin-right: 1rem;
+       margin-left: 1rem;
+   }
+
+   .grillaIndex{
+       margin-right: 0;
+       margin-left: 12px;
+   }
+
+
+   #lateral{
+       display: block;
+       background-color: rgba(0, 0, 0, 0.9);
+       width: 80%;
+       height: 100vh;
+       position: fixed;
+       top: 0;
+       right: -100%;
+       z-index: 100;
+   }
+
+   #lateral:target{
+       right: 0;
+       transition: right 1s;
+   }
+    
+   .menuHeader ul{
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .navLista{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+  .close{
+      display: flex;
+  }
+
+   
+
+    
+
+
+    /**************SERVICIOS************/
+
+    .servicio__titulo{
+        font-size: 80px;
+    }
+
+    .card-body{
+        height: 200px;
+    }
+
+    .card-enlaces{
+        height: 50px;
+    }
+
+
+    /**********BLOG*********/    
+    
+   
+    .formulario{
+        align-items: center;
+    }
+    
+    .titulo{
+        text-align: center;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+
+    .blog-card{
+        height: 300px;
+
+
+    }
+
+
+
+
+    /**************CURSOS***********/
+
+    .cardCursos{
+        width: 18rem;
+        height: 750px;
+    }
+
+    
+   
+
+    /********Turnos*********/
+
+
+    .seccion2{
+        padding: 30px 0;
+    }
+
+    .mapa{
+      width: 200px;
+      height: 200px;
+    }
+
+   .tituloAgenda{
+       font-size: 50px;
+   }
+
+
+   
+
+   
+    
+    
+   
+    
+    
+    
+}
