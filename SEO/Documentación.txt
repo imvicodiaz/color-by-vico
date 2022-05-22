@@ -1,0 +1,14 @@
+Optimización SEO
+
+Compresión de imagenes y cambio a formato jpeg.
+
+Agregue Keywords a través de la etiqueta ¨meta¨.
+
+Modifiqué el ¨tittle¨ en las páginas HTML en el Head.
+
+Agregué ¨Meta description¨ en todas las pag HTML.
+
+Agregué im mapa del sitio (sistemap.xml)
+
+
+
