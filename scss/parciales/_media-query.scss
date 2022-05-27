@@ -7,17 +7,33 @@
     }
      
     .tituloIndex{
-        font-size: 60px;
+        font-size: 30px;
         color: white;
         text-align: center;
     }
+
+    .subtitulo_index{
+        margin-left: 15px;
+    }
+
+    .parrafo{
+        padding-left: 12px;
+
+    }
+
     
+
+
    header{
        flex-direction: row;
    }
    header nav ul{
        margin: 0;
        
+   }
+
+   .index_contenido{
+      padding-left: 20px;
    }
 
    
@@ -105,7 +121,8 @@
     /**************SERVICIOS************/
 
     .servicio__titulo{
-        font-size: 80px;
+        font-size: 60px;
+        margin-top: 2rem;
     }
 
     .card-body{
@@ -130,12 +147,18 @@
 
     .subtitulo{
         text-align: center;
+        
     }
 
     .blog-card{
         height: 300px;
 
 
+    }
+
+    .subtitulo-blog{
+        margin-left: 0;
+        padding: 0 1rem;
     }
 
 
@@ -148,7 +171,10 @@
         height: 750px;
     }
 
-    
+    .subtitulo-cursos{
+        margin-left: 0;
+        padding: 0 1rem;
+    }
    
 
     /********Turnos*********/

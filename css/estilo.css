@@ -2,6 +2,10 @@ body {
   background-color: #1a1919;
 }
 
+.index_contenido {
+  width: 100%;
+}
+
 header {
   grid-area: header;
   background-color: black;
@@ -14,7 +18,8 @@ header {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "logo nav";
   align-content: space-evenly;
-  margin-left: 15px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .logo {
@@ -83,7 +88,7 @@ header {
 
 .carruselIndex {
   width: 450px;
-  padding: 2rem 0;
+  padding: 109px 0;
 }
 
 .carrusel {
@@ -154,7 +159,6 @@ footer div {
   padding: 5px;
 }
 
-/*************SERVICIOS/CURSOS***************/
 .card-img-top {
   height: 300px;
 }
@@ -238,7 +242,6 @@ footer div {
   }
 }
 
-/***********Cursos**********/
 .card-cursos {
   height: 250px;
 }
@@ -259,12 +262,11 @@ footer div {
   justify-content: center;
 }
 
-.reserva:hover {
+.reserva :hover {
   background-color: white;
   transition: 1s;
 }
 
-/***********BLOG**********/
 .scale-up-ver-top {
   -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -306,7 +308,7 @@ footer div {
   text-align: center;
 }
 
-.blog-card:hover {
+.blog-card :hover {
   background-color: darksalmon;
   transition: 1s;
 }
@@ -315,7 +317,6 @@ footer div {
   height: 300px;
 }
 
-/*****************AGENDA TURNO******/
 .seccion2 {
   padding: 100px 0;
 }
@@ -339,15 +340,24 @@ footer div {
     flex-direction: column;
   }
   .tituloIndex {
-    font-size: 60px;
+    font-size: 30px;
     color: white;
     text-align: center;
+  }
+  .subtitulo_index {
+    margin-left: 15px;
+  }
+  .parrafo {
+    padding-left: 12px;
   }
   header {
     flex-direction: row;
   }
   header nav ul {
     margin: 0;
+  }
+  .index_contenido {
+    padding-left: 20px;
   }
   .menuHeader {
     display: flex;
@@ -411,7 +421,8 @@ footer div {
   }
   /**************SERVICIOS************/
   .servicio__titulo {
-    font-size: 80px;
+    font-size: 60px;
+    margin-top: 2rem;
   }
   .card-body {
     height: 200px;
@@ -432,10 +443,18 @@ footer div {
   .blog-card {
     height: 300px;
   }
+  .subtitulo-blog {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
   /**************CURSOS***********/
   .cardCursos {
     width: 18rem;
     height: 750px;
+  }
+  .subtitulo-cursos {
+    margin-left: 0;
+    padding: 0 1rem;
   }
   /********Turnos*********/
   .seccion2 {
@@ -449,4 +468,7 @@ footer div {
     font-size: 50px;
   }
 }
+
+/***********BLOG**********/
+/*****************AGENDA TURNO******/
 /*# sourceMappingURL=estilo.css.map */

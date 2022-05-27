@@ -40,12 +40,14 @@
     height: 400px;
     text-align: center
     ;
+
+    :hover{
+        background-color: darksalmon;
+        transition: 1s;
+    }
 }
 
-.blog-card:hover{
-    background-color: darksalmon;
-    transition: 1s;
-}
+
 
 .card-text{
     height: 300px;
