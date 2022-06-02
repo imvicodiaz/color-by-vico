@@ -1,9 +1,75 @@
+@charset "UTF-8";
+/*Cambiar el nombre de la carpeta a Index, también en
+_estilos.scss*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #1a1919;
 }
 
 .index_contenido {
   width: 100%;
+}
+
+/*
+.main-index{
+    display: flex;
+    align-items: center;
+}
+*/
+.titulo-servicio-index {
+  font-size: 3rem;
+  color: #d84848;
+}
+
+.servicios-link {
+  margin-top: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
+.servicios-link:hover {
+  color: lightcoral;
+}
+
+.index-servicios-section {
+  margin: 5rem 0;
+  background-color: gray;
+  height: 50rem;
+}
+
+.index-servicios-section .index-servicios {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.subtitulo-servicio-index {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.parrafo-servicios {
+  color: black;
+  margin-bottom: 0;
+}
+
+.imagen-servicios {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen-servicios-index {
+  width: 300px;
+  padding: 0 2rem;
 }
 
 header {
@@ -64,6 +130,12 @@ header {
   display: none;
 }
 
+/*
+.main-index{
+  height: 100vh;
+}
+
+*/
 .blogCard {
   max-width: 540px;
 }
