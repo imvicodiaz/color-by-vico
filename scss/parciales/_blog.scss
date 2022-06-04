@@ -47,8 +47,21 @@
     }
 }
 
-
+.formulario-blog{
+        display: flex;
+        align-items: center;
+}
 
 .card-text{
     height: 300px;
+}
+
+.main-blog{
+        margin-bottom: 3rem;
+}
+
+.titulo-blog{
+        font-family: 'Satisfy', cursive;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
 }

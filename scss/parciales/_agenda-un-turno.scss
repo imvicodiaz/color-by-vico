@@ -1,5 +1,5 @@
 .seccion2{
-    padding: 100px 0;
+    padding-top: 1rem;
 }
 
 .formulario{
@@ -14,4 +14,15 @@
 
 .tituloAgenda{
     font-size: 80px;
+    font-family: 'Satisfy', cursive;
 }
+
+.main-turnos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+    

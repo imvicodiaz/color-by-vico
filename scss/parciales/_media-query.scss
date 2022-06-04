@@ -1,12 +1,60 @@
 @media screen and (max-width: 600px) {
-
     
 
+    .index{
+        width: fit-content;
+        }
     
-      
+        .index2 {
+
+            height: 20rem;
+
+            
+    
+           
+    
+           .index2-titulo {
+    
+            margin-top: 2rem;
+            height: 10rem;
+            display: flex;
+            justify-content: space-around;
+            }
+    
+    
+    
+            
+        }
+        
+        
+        #index2-h3{
+            font-size: 50px;
+            font-family: 'Satisfy', cursive;
+            margin-bottom: 0;
+            padding-top: 4rem;
+        }
+
+        .index3-links {
+            color: #ea977b;
+            font-size: 2rem;
+            text-decoration: none;
+            font-family: 'Satisfy', cursive;
+            padding-top: 35px;
+        }
+    
+        .carrusel-desktop{
+            display: none;
+        }
+
+        .carrusel-mobile{
+            display: flex;
+        }
+    
+    /*  
     .grillaIndex{
         display: flex;
         flex-direction: column;
+        
     }
      
     .tituloIndex{
@@ -116,12 +164,61 @@
       display: flex;
   }
 
+  .carrusel-desktop{
+      display: none;
+  }
+
+  .carrusel-mobile{
+      display: flex;
+  }
+
+ 
+  
+  .index2{
+
+     height: 15rem;
+
+     .index2-titulo{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 7rem;
+        
+
+
+          .index2-h3{
+              font-size: 50px;
+              font-family: 'Satisfy', cursive;
+              margin-bottom: 0;
+             }
+
+            }
+          
+
+         
+    } 
+   
+    .links-servicios li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+    }*/
+
+
    
 
     
 
 
+
     /**************SERVICIOS************/
+
+
+    .body-paginas{
+        width: fit-content;
+    }
 
     .servicio__titulo{
         font-size: 60px;
@@ -183,6 +280,10 @@
     /********Turnos*********/
 
 
+    .main-turnos{
+        height: 55rem; 
+    
+    }
     .seccion2{
         padding: 30px 0;
     }
@@ -194,16 +295,18 @@
 
    .tituloAgenda{
        font-size: 50px;
+        padding-bottom: 2rem;
+        padding-top: 0;
+        margin-top: 0;
+    
    }
 
+   .mapa{
+       margin-top: 3rem;
+   }
 
-   
+   .formulario2{
+       width: 100%;   
+    }
 
-   
-    
-    
-   
-    
-    
-    
 }

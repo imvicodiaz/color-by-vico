@@ -1,5 +1,3 @@
-/*Cambiar el nombre de la carpeta a Index, también en
-_estilos.scss*/
 
 *{
     margin: 0;
@@ -12,15 +10,9 @@ body{
     background-color:rgb(26, 25, 25);
     
     
-    
-
 }
 
 
-
-.index_contenido{
-    width: 100%;
-}
 
 .subtitulo_index{
     color: #ea977b;
@@ -31,12 +23,7 @@ body{
 }
 
 
-/*
-.main-index{
-    display: flex;
-    align-items: center;
-}
-*/ 
+
 
 
 .index2{
@@ -45,10 +32,6 @@ body{
     background-size: cover;
 
      height: 25rem;
-
-
-
-
 
 
     .index2-titulo{
@@ -110,5 +93,46 @@ body{
               }
           }
       }
+}
+
+.index3-contenedor{
+    height: 45rem;
+}
+
+.index3-titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.index3-h3{
+    
+    padding-top: 2rem;
+    font-size: 50px;
+    height: 3rem;
+    color: white;
+}
+
+.index3-links{
+    color: #ea977b;
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+    padding-top: 2rem;
+    &:hover{
+        color: white;
+    }
+    
+    
+}
+
+/*.index3-contenedor{
+    display: flex ;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}*/
+
+.carrusel-mobile{
+    display: none;
 }
 
