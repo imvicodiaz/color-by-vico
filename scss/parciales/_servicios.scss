@@ -20,7 +20,7 @@
 }
 
 .list-group li:hover {
-   background-color: darksalmon;
+   background-color: lightsalmon;
 }
 
 .card-text{
@@ -29,11 +29,11 @@
 
 .card-body a{
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 .card-body a:hover{
-     color: darksalmon;
+     color: lightsalmon;
     font-weight: 500;
     
 }

@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #1a1919;
+.body-paginas {
+  background-color: grey;
+}
+
+.index {
+  background-color: grey;
 }
 
 .subtitulo_index {
-  color: #ea977b;
+  color: white;
   text-align: center;
   margin-left: 2rem;
   padding-bottom: 1rem;
@@ -17,7 +21,6 @@ body {
 }
 
 .index2 {
-  background-image: url(/imagenes/stacked-waves-haikei2.png);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1638' height='480' preserveAspectRatio='none' viewBox='0 0 1638 480'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1031%26quot%3b)' fill='none'%3e%3crect width='1638' height='480' x='0' y='0' fill='rgba(234%2c 151%2c 123%2c 1)'%3e%3c/rect%3e%3cpath d='M1638 0L1267.66 0L1638 166.64z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1267.66 0L1638 166.64L1638 263.5L753.9000000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M753.9000000000001 0L1638 263.5L1638 292.83L591.8400000000001 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M591.8400000000001 0L1638 292.83L1638 367.44L232.25000000000017 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 480L342.35 480L0 354.84000000000003z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 354.84000000000003L342.35 480L976.44 480L0 296.70000000000005z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 296.7L976.44 480L979.1800000000001 480L0 137.2z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 137.2L979.1800000000001 480L1309.26 480L0 60.139999999999986z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1031'%3e%3crect width='1638' height='480' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
   background-size: cover;
   height: 25rem;
@@ -40,12 +43,12 @@ body {
 
 .index2 .index2-enlace {
   text-decoration: none;
-  color: #1a1919;
+  color: grey;
   font-size: 20px;
 }
 
 .index2 .index2-enlace:hover {
-  color: white;
+  color: lightsalmon;
 }
 
 .index2 .index2-links {
@@ -69,16 +72,20 @@ body {
 }
 
 .links-servicios li a:hover {
-  color: #1a1919;
+  color: grey;
 }
 
 .index3-contenedor {
   height: 45rem;
 }
 
+.carrusel-mobile {
+  display: none;
+}
+
 .index3-titulo {
   display: flex;
-  justify-content: center;
+  justify-content: white;
   flex-direction: column;
   align-items: center;
 }
@@ -91,7 +98,7 @@ body {
 }
 
 .index3-links {
-  color: #ea977b;
+  color: lightsalmon;
   font-size: 3rem;
   text-decoration: none;
   font-family: 'Satisfy', cursive;
@@ -100,15 +107,6 @@ body {
 
 .index3-links:hover {
   color: white;
-}
-
-/*.index3-contenedor{
-    display: flex ;
-    padding-bottom: 5rem;
-    margin-top: 5rem;
-}*/
-.carrusel-mobile {
-  display: none;
 }
 
 header {
@@ -169,12 +167,6 @@ header {
   display: none;
 }
 
-/*
-.main-index{
-  height: 100vh;
-}
-
-*/
 .blogCard {
   max-width: 540px;
 }
@@ -291,7 +283,7 @@ footer div {
 }
 
 .list-group li:hover {
-  background-color: darksalmon;
+  background-color: lightsalmon;
 }
 
 .card-text {
@@ -300,11 +292,11 @@ footer div {
 
 .card-body a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 .card-body a:hover {
-  color: darksalmon;
+  color: lightsalmon;
   font-weight: 500;
 }
 
@@ -364,13 +356,13 @@ footer div {
 }
 
 .cardCursos:hover {
-  background-color: darksalmon;
+  background-color: salmon;
   transition: 2s;
 }
 
 .reserva {
-  background-color: darksalmon;
-  border: darksalmon;
+  background-color: lightsalmon;
+  border: lightsalmon;
   display: flex;
   justify-content: center;
 }
@@ -426,7 +418,7 @@ footer div {
 }
 
 .blog-card :hover {
-  background-color: #ea977b;
+  background-color: lightsalmon;
   transition: 1s;
 }
 
@@ -474,7 +466,79 @@ footer div {
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  .carrusel-desktop {
+    display: none;
+  }
+  header {
+    flex-direction: row;
+  }
+  header nav ul {
+    margin: 0;
+  }
+  .menuHeader {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header_open {
+    display: block;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  main div h2 {
+    text-align: center;
+  }
+  main div h3 {
+    text-align: center;
+  }
+  .indexTexto {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .grillaIndex {
+    margin-right: 0;
+    margin-left: 12px;
+  }
+  #lateral {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+  }
+  #lateral:target {
+    right: 0;
+    transition: right 1s;
+  }
+  .menuHeader ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navLista {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  .close {
+    display: flex;
+  }
   .index {
     width: fit-content;
   }
@@ -494,7 +558,7 @@ footer div {
     padding-top: 4rem;
   }
   .index3-links {
-    color: #ea977b;
+    color: lightsalmon;
     font-size: 2rem;
     text-decoration: none;
     font-family: 'Satisfy', cursive;
@@ -503,164 +567,6 @@ footer div {
   .carrusel-desktop {
     display: none;
   }
-  .carrusel-mobile {
-    display: flex;
-  }
-  /*  
-    .grillaIndex{
-        display: flex;
-        flex-direction: column;
-        
-    }
-     
-    .tituloIndex{
-        font-size: 30px;
-        color: white;
-        text-align: center;
-    }
-
-    .subtitulo_index{
-        margin-left: 15px;
-    }
-
-    .parrafo{
-        padding-left: 12px;
-
-    }
-
-    
-
-
-   header{
-       flex-direction: row;
-   }
-   header nav ul{
-       margin: 0;
-       
-   }
-
-   .index_contenido{
-      padding-left: 20px;
-   }
-
-   
-
-    .menuHeader{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .header_open{
-        display: block;
-        font-size: 32px;
-        color: white;
-        text-decoration: none;
-        text-align: end;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 1rem;
-    }
-
-    .logo{
-        margin-top: 10px;
-    }
-
-   main div h2{
-       text-align: center;
-      
-   }
-
-   main div h3{
-       text-align: center;
-       
-   }
-   
-   .indexTexto{
-       margin-right: 1rem;
-       margin-left: 1rem;
-   }
-
-   .grillaIndex{
-       margin-right: 0;
-       margin-left: 12px;
-   }
-
-
-   #lateral{
-       display: block;
-       background-color: rgba(0, 0, 0, 0.9);
-       width: 80%;
-       height: 100vh;
-       position: fixed;
-       top: 0;
-       right: -100%;
-       z-index: 100;
-   }
-
-   #lateral:target{
-       right: 0;
-       transition: right 1s;
-   }
-    
-   .menuHeader ul{
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .navLista{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-}
-
-  .close{
-      display: flex;
-  }
-
-  .carrusel-desktop{
-      display: none;
-  }
-
-  .carrusel-mobile{
-      display: flex;
-  }
-
- 
-  
-  .index2{
-
-     height: 15rem;
-
-     .index2-titulo{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 7rem;
-        
-
-
-          .index2-h3{
-              font-size: 50px;
-              font-family: 'Satisfy', cursive;
-              margin-bottom: 0;
-             }
-
-            }
-          
-
-         
-    } 
-   
-    .links-servicios li a {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-
-    }*/
   /**************SERVICIOS************/
   .body-paginas {
     width: fit-content;
@@ -725,7 +631,4 @@ footer div {
     width: 100%;
   }
 }
-
-/***********BLOG**********/
-/*****************AGENDA TURNO******/
 /*# sourceMappingURL=estilo.css.map */

@@ -1,5 +1,91 @@
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 767px) {
     
+    .carrusel-desktop{ display: none; }
+
+    header{
+        flex-direction: row;
+    }
+
+    header nav ul{
+        margin: 0;
+    }
+
+    .menuHeader{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header_open{
+        display: block;
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+
+    .logo{
+        margin-top: 10px;
+    }
+   main div h2{
+       text-align: center;
+      
+   }
+   main div h3{
+       text-align: center;
+       
+   }
+   
+   .indexTexto{
+       margin-right: 1rem;
+       margin-left: 1rem;
+   }
+   .grillaIndex{
+       margin-right: 0;
+       margin-left: 12px;
+   }
+
+   #lateral{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+}
+#lateral:target{
+    right: 0;
+    transition: right 1s;
+}
+ 
+.menuHeader ul{
+   flex-direction: column;
+   justify-content: center;
+}
+
+.navLista{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+  .close{
+      display: flex;
+  }
+
+
+
+
+
 
     .index{
         width: fit-content;
@@ -35,9 +121,10 @@
         }
 
         .index3-links {
-            color: #ea977b;
+            color: lightsalmon;
             font-size: 2rem;
             text-decoration: none;
+
             font-family: 'Satisfy', cursive;
             padding-top: 35px;
         }
@@ -46,173 +133,27 @@
             display: none;
         }
 
-        .carrusel-mobile{
-            display: flex;
-        }
-    
-    /*  
-    .grillaIndex{
-        display: flex;
-        flex-direction: column;
-        
-    }
-     
-    .tituloIndex{
-        font-size: 30px;
-        color: white;
-        text-align: center;
-    }
 
-    .subtitulo_index{
-        margin-left: 15px;
-    }
 
-    .parrafo{
-        padding-left: 12px;
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
-
-
-   header{
-       flex-direction: row;
-   }
-   header nav ul{
-       margin: 0;
-       
-   }
-
-   .index_contenido{
-      padding-left: 20px;
-   }
-
    
-
-    .menuHeader{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .header_open{
-        display: block;
-        font-size: 32px;
-        color: white;
-        text-decoration: none;
-        text-align: end;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 1rem;
-    }
-
-    .logo{
-        margin-top: 10px;
-    }
-
-   main div h2{
-       text-align: center;
-      
-   }
-
-   main div h3{
-       text-align: center;
-       
-   }
-   
-   .indexTexto{
-       margin-right: 1rem;
-       margin-left: 1rem;
-   }
-
-   .grillaIndex{
-       margin-right: 0;
-       margin-left: 12px;
-   }
-
-
-   #lateral{
-       display: block;
-       background-color: rgba(0, 0, 0, 0.9);
-       width: 80%;
-       height: 100vh;
-       position: fixed;
-       top: 0;
-       right: -100%;
-       z-index: 100;
-   }
-
-   #lateral:target{
-       right: 0;
-       transition: right 1s;
-   }
-    
-   .menuHeader ul{
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .navLista{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-}
-
-  .close{
-      display: flex;
-  }
-
-  .carrusel-desktop{
-      display: none;
-  }
-
-  .carrusel-mobile{
-      display: flex;
-  }
-
- 
-  
-  .index2{
-
-     height: 15rem;
-
-     .index2-titulo{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 7rem;
-        
-
-
-          .index2-h3{
-              font-size: 50px;
-              font-family: 'Satisfy', cursive;
-              margin-bottom: 0;
-             }
-
-            }
-          
-
-         
-    } 
-   
-    .links-servicios li a {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-
-    }*/
-
-
-   
-
-    
-
-
-
     /**************SERVICIOS************/
 
 

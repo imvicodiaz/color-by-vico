@@ -6,18 +6,18 @@
     height: 750px;
 }
 .cardCursos:hover{
-    background-color: darksalmon;
+    background-color: salmon;
     transition: 2s;
 }
 
 .reserva{
-    background-color: darksalmon;
-    border: darksalmon;
+    background-color: lightsalmon ;
+    border: lightsalmon;
     display: flex;
     justify-content: center;
 
       :hover{
-    background-color: white;
+    background-color: white    ;
     transition: 1s;
    }
 }
