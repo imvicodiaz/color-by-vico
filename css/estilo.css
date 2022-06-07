@@ -13,7 +13,6 @@
 }
 
 .subtitulo_index {
-  color: white;
   text-align: center;
   margin-left: 2rem;
   padding-bottom: 1rem;
@@ -43,12 +42,8 @@
 
 .index2 .index2-enlace {
   text-decoration: none;
-  color: grey;
+  color: black;
   font-size: 20px;
-}
-
-.index2 .index2-enlace:hover {
-  color: lightsalmon;
 }
 
 .index2 .index2-links {
@@ -72,7 +67,7 @@
 }
 
 .links-servicios li a:hover {
-  color: grey;
+  color: black;
 }
 
 .index3-contenedor {
@@ -85,7 +80,6 @@
 
 .index3-titulo {
   display: flex;
-  justify-content: white;
   flex-direction: column;
   align-items: center;
 }
@@ -94,7 +88,6 @@
   padding-top: 2rem;
   font-size: 50px;
   height: 3rem;
-  color: white;
 }
 
 .index3-links {
@@ -173,12 +166,10 @@ header {
 
 .titulo {
   text-align: center;
-  color: white;
 }
 
 .subtitulo {
   text-align: center;
-  color: white;
   margin-left: 2rem;
   padding-bottom: 1rem;
 }
@@ -292,7 +283,7 @@ footer div {
 
 .card-body a {
   text-decoration: none;
-  color: grey;
+  color: #808080;
 }
 
 .card-body a:hover {
@@ -417,11 +408,6 @@ footer div {
   text-align: center;
 }
 
-.blog-card :hover {
-  background-color: lightsalmon;
-  transition: 1s;
-}
-
 .formulario-blog {
   display: flex;
   align-items: center;
@@ -439,6 +425,7 @@ footer div {
   font-family: 'Satisfy', cursive;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  color: black;
 }
 
 .formulario {
@@ -462,6 +449,7 @@ footer div {
 .tituloAgenda {
   font-size: 80px;
   font-family: 'Satisfy', cursive;
+  color: #000000;
 }
 
 .main-turnos {

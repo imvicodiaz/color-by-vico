@@ -8,12 +8,13 @@
 
 .titulo{
     text-align: center;
-   color: white;
+   
+    color: map-get($estilos, negro );
 }
 
 .subtitulo{
     text-align: center;
-    color: white;
+    color: map-get($estilos, blanco );
     margin-left: 2rem;
     padding-bottom: 1rem;
 }
@@ -21,6 +22,7 @@
 
 .parrafo{
     text-align: center;
+    color: map-get($estilos , blanco );
     color: white;
     padding-left: 2rem;
 }

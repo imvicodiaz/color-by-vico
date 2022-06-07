@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.titulo{
+    color: map-get($estilos, negro );
+}
+
 .body-paginas{
     background-color: grey;
 }
@@ -15,7 +19,7 @@
 
 
 .subtitulo_index{
-    color: white;
+    color: map-get($estilos, negro );
     text-align: center;
     margin-left: 2rem;
     padding-bottom: 1rem;
@@ -47,6 +51,7 @@
               font-size: 80px;
               font-family: 'Satisfy', cursive;;
               margin-bottom: 0;
+              color: map-get($estilos, negro)
           }
           
 
@@ -55,11 +60,11 @@
 
     .index2-enlace{
         text-decoration: none;
-        color: grey;
+        color: black;
         font-size: 20px;
 
           &:hover{
-              color:  lightsalmon;
+            color: map-get($estilos, blanco)
           }
     }
 
@@ -89,7 +94,7 @@
               font-size: 25px;
 
               &:hover{
-                  color:grey ;
+                  color:black ;
               }
           }
       }
@@ -105,7 +110,7 @@
 
 .index3-titulo{
     display: flex;
-    justify-content: white;
+    color: map-get($estilos, blanco );
     flex-direction: column;
     align-items: center;
 }
@@ -114,7 +119,7 @@
     padding-top: 2rem;
     font-size: 50px;
     height: 3rem;
-    color: white;
+    color: map-get($estilos, blanco );
 }
 
 .index3-links{

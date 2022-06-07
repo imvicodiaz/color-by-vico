@@ -41,10 +41,7 @@
     text-align: center
     ;
 
-    :hover{
-        background-color: lightsalmon;
-        transition: 1s;
-    }
+    
 }
 
 .formulario-blog{
@@ -64,6 +61,7 @@
         font-family: 'Satisfy', cursive;
         padding-bottom: 1rem;
         padding-top: 1rem;
+        color: black;
 }
 .formulario{
         display: flex;

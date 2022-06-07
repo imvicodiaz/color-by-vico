@@ -15,8 +15,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Satisfy', cursive;
-
-  margin-top: 3rem;
+     margin-top: 3rem;
 }
 
 .list-group li:hover {
@@ -29,7 +28,7 @@
 
 .card-body a{
     text-decoration: none;
-    color: grey;
+    color: map-get($estilos, gris );
 }
 
 .card-body a:hover{
@@ -42,6 +41,9 @@
     height: 700px;
 }
 
+.card-enlaces{
+        color: map-get($estilos, negro );
+}
 .card-body{
     height: 200px;
 }
