@@ -1,5 +1,33 @@
 
-@media screen and (max-width: 767px) {
+
+@media screen and  (max-width: 1024px) {
+    
+
+    /*servicios y cursos*/
+    .formulario {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    /*turnos*/
+
+    .main-turnos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 3rem;
+        height: 1000px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:0 ) and (max-width: 660px) {
     
     .carrusel-desktop{ display: none; }
 
@@ -172,6 +200,11 @@
 
     .card-enlaces{
         height: 50px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
     }
 
 
