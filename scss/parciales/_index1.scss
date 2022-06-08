@@ -28,6 +28,96 @@
 
 
 
+.blogCard{
+    max-width: 540px;
+}
+
+
+
+.titulo{
+    text-align: center;
+   
+    color: map-get($estilos, negro );
+}
+
+.subtitulo{
+    text-align: center;
+    color: map-get($estilos, blanco );
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.parrafo{
+    text-align: center;
+    color: map-get($estilos , blanco );
+    color: white;
+    padding-left: 2rem;
+}
+
+.carruselIndex{
+    width: 450px;
+    padding: 109px 0;
+    
+
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    align-items: center;
+    
+}
+
+.carousel slide{
+    width: 500px;
+}
+
+
+.d-block{
+    width: 300px;
+    height: 400px;
+}
+
+
+.tracking-in-expand {
+    font-size: 100px;
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+
+
+
 
 
 .index2{

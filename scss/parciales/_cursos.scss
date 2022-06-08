@@ -4,11 +4,13 @@
   
 .cardCursos{
     height: 750px;
+
+    &:hover{
+        background-color: salmon;
+        transition: 2s;
+    }
 }
-.cardCursos:hover{
-    background-color: salmon;
-    transition: 2s;
-}
+
 
 .reserva{
     background-color: lightsalmon ;
@@ -16,11 +18,9 @@
     display: flex;
     justify-content: center;
 
-      :hover{
-    background-color: white    ;
-    transition: 1s;
-   }
+     
 }
+
 
 .subtitulo-cursos{
     padding: 1rem 2rem 1rem 2rem;
