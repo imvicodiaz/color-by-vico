@@ -52,17 +52,15 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-sm-12 formulario-turnos">
                         <form >
-                       <h1 class="tracking-in-expand titulo tituloAgenda">Agenda un Turno</h1>
-                       <input type="name" name="nombre" id="nombre" required placeholder="tu nombre"  class="formulario2" >
-                       <input type="email" name="email" id="email" required placeholder="tu email" class="email formulario2" >
-                       <input type="servicio" name="servicio" id="servicio" required placeholder="servicio"  class="formulario2" >
-                       <textarea name="mensajeinput" id="mensajeinput" required placeholder="Información adicional" class="formulario2"  ></textarea>
-                       <select class="form-select selector" aria-label="Default select example" class="formulario2" >
-                         <option selected>Procesos Quimicos</option>
-                         <option value="1">Tintura</option>
-                         <option value="2">Alisados</option>
-                         <option value="3">Ambos</option>
-                       </select>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                       
                        <button type="submit" class="formulario2" >ENVIAR</button>
                     </form>
                     </div>
@@ -95,3 +93,4 @@
     
 </body>
 </html>
+
